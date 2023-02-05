@@ -19,7 +19,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-    background-image: url('/images/cenario.png');
+    background-image: url('./images/cenario.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@
 .box {
     width: 100px;
     height: 100px;
-    background-image: url('/images/monstro.png');
+    background-image: url('./images/monstro.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
@@ -40,7 +40,7 @@
 .plant {
     width: 125px;
     height: 200px;
-    background-image: url('/images/planta.png');
+    background-image: url('./images/planta.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
@@ -56,7 +56,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('/images/game-over.jpg');
+    background-image: url('./images/game-over.jpg');
     width: 100%;
     height: 100vh;
     display: flex;
